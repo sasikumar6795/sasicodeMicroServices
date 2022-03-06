@@ -1,4 +1,4 @@
-package com.sasicode.fraud.dto;
+package com.sasicode.clients.fraud;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
