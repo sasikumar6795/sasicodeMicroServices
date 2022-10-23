@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/AmigosCode-Microservices.iml" filepath="$PROJECT_DIR$/.idea/AmigosCode-Microservices.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Sasi-MicroServices/clients/clients.iml" filepath="$PROJECT_DIR$/Sasi-MicroServices/clients/clients.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Sasi-MicroServices/customer/customer.iml" filepath="$PROJECT_DIR$/Sasi-MicroServices/customer/customer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Sasi-MicroServices/eureka-server/eureka-server.iml" filepath="$PROJECT_DIR$/Sasi-MicroServices/eureka-server/eureka-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Sasi-MicroServices/fraud/fraud.iml" filepath="$PROJECT_DIR$/Sasi-MicroServices/fraud/fraud.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Sasi-MicroServices/notification/notification.iml" filepath="$PROJECT_DIR$/Sasi-MicroServices/notification/notification.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Sasi-MicroServices/sasiServices.iml" filepath="$PROJECT_DIR$/Sasi-MicroServices/sasiServices.iml" />
+    </modules>
+  </component>
+</project>
