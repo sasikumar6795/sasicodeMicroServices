@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/AmigosCode-Microservices.iml" filepath="$PROJECT_DIR$/.idea/AmigosCode-Microservices.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Sasi-MicroServices/amqp/amqp.iml" filepath="$PROJECT_DIR$/Sasi-MicroServices/amqp/amqp.iml" />
       <module fileurl="file://$PROJECT_DIR$/Sasi-MicroServices/apigw/apigw.iml" filepath="$PROJECT_DIR$/Sasi-MicroServices/apigw/apigw.iml" />
       <module fileurl="file://$PROJECT_DIR$/Sasi-MicroServices/clients/clients.iml" filepath="$PROJECT_DIR$/Sasi-MicroServices/clients/clients.iml" />
       <module fileurl="file://$PROJECT_DIR$/Sasi-MicroServices/customer/customer.iml" filepath="$PROJECT_DIR$/Sasi-MicroServices/customer/customer.iml" />

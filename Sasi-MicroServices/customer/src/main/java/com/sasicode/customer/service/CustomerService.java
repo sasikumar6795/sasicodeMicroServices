@@ -1,5 +1,6 @@
 package com.sasicode.customer.service;
 
+import com.sasicode.amqp.RabbitMQMessageProducer;
 import com.sasicode.clients.fraud.FraudCheckResponseDto;
 import com.sasicode.clients.fraud.FraudClient;
 import com.sasicode.clients.notification.NotificationClient;
@@ -19,7 +20,9 @@ public class CustomerService {
     //private final RestTemplate restTemplate;
     private final FraudClient fraudClient;
 
-    private final NotificationClient notificationClient;
+    //private final NotificationClient notificationClient;
+
+    private final RabbitMQMessageProducer rabbitMQMessageProducer;
 
     public void registerCustomer(Customer request) {
         Customer customer = Customer.builder()
@@ -46,12 +49,15 @@ public class CustomerService {
             throw new IllegalStateException("fraudster");
         }
         // send notification
+        NotificationRequestDto notificationRequest = NotificationRequestDto.builder()
+                .toCustomerId(customer.getId())
+                .toCustomerEmail(customer.getEmail())
+                .message("sasikumar is fraudster check")
+                .build();
 
-        notificationClient.sendNotification(NotificationRequestDto.builder()
-                        .toCustomerId(customer.getId())
-                        .toCustomerEmail(customer.getEmail())
-                        .message("sasikumar is fraudster check")
-                .build());
+        rabbitMQMessageProducer.publish(notificationRequest,
+                "internal.exchange",
+                "internal.notification.routing-key");
     }
 
 
