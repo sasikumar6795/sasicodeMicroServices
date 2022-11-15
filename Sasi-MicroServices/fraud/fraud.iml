@@ -143,6 +143,7 @@
     <orderEntry type="library" name="Maven: io.zipkin.reporter2:zipkin-sender-kafka:2.16.1" level="project" />
     <orderEntry type="library" name="Maven: io.zipkin.reporter2:zipkin-sender-activemq-client:2.16.1" level="project" />
     <orderEntry type="library" name="Maven: io.zipkin.reporter2:zipkin-sender-amqp-client:2.16.1" level="project" />
+    <orderEntry type="module" module-name="clients" />
     <orderEntry type="library" name="Maven: org.projectlombok:lombok:1.18.22" level="project" />
     <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot-starter-test:2.5.7" level="project" />
     <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot-test:2.5.7" level="project" />
@@ -181,6 +182,5 @@
     <orderEntry type="library" name="Maven: commons-io:commons-io:2.2" level="project" />
     <orderEntry type="library" name="Maven: io.github.openfeign:feign-core:10.12" level="project" />
     <orderEntry type="library" name="Maven: io.github.openfeign:feign-slf4j:10.12" level="project" />
-    <orderEntry type="module" module-name="clients" />
   </component>
 </module>

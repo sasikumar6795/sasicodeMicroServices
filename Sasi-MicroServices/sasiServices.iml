@@ -73,6 +73,5 @@
     <orderEntry type="library" name="Maven: org.springframework.security:spring-security-crypto:5.5.3" level="project" />
     <orderEntry type="library" name="Maven: io.github.openfeign:feign-core:10.12" level="project" />
     <orderEntry type="library" name="Maven: io.github.openfeign:feign-slf4j:10.12" level="project" />
-    <orderEntry type="module" module-name="clients" />
   </component>
 </module>

@@ -3,7 +3,6 @@ package com.sasicode.customer.service;
 import com.sasicode.amqp.RabbitMQMessageProducer;
 import com.sasicode.clients.fraud.FraudCheckResponseDto;
 import com.sasicode.clients.fraud.FraudClient;
-import com.sasicode.clients.notification.NotificationClient;
 import com.sasicode.clients.notification.NotificationRequestDto;
 import com.sasicode.customer.entity.Customer;
 import com.sasicode.customer.repository.CustomerRepository;
