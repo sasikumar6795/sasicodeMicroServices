@@ -1,0 +1,23 @@
+server:
+  port: 8081
+spring:
+  application:
+    name: fraud
+  datasource:
+    password: root
+    url: jdbc:postgresql://postgres:5432/fraud
+    username: postgres
+  jpa:
+    hibernate:
+      ddl-auto: create-drop
+      properties:
+        hibernate:
+          dialect: org.hibernate.dialect.PostgreSQLDialect
+          format_sql: true
+      show-sql: true
+  zipkin:
+    base-url: http://zipkin:9411
+eureka:
+  client:
+    service-url:
+      default-zone: http://eureka-server:8761/eureka
