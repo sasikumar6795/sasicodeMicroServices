@@ -65,6 +65,7 @@ services:
       - "8083:8083"
     environment:
       - SPRING_PROFILES_ACTIVE=docker
+      - SPRING_MAIN_WEB_APPLICATION_TYPE=reactive
     networks:
       - spring
     depends_on:
